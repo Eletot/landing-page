@@ -1,0 +1,17 @@
+/* Gets rid of all margin and padding globally.
+border-box for convenience. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    background-color: #1F2937;
+}
+
+.hero #main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
